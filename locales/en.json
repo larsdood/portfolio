@@ -1,0 +1,111 @@
+{
+  "images": {
+    "subtitle": "/subtitle-en.png",
+    "subtitleClass": "subtitle-en"
+  },
+  "herokuDisclaimer": "This prototype is hosted on Heroku, and might take up to 30 seconds to load. Data is regularily deleted; feel free to sign up with arbitrary data to test the solution.",
+  "resume": {
+    "dfind": {
+      "title": "Dfind Consulting",
+      "period": "July 2018 - Present",
+      "description": "I work as a web developer/consultant at Dfind Consulting. On a day-to-day basis I work hands-on as a web developer at the client's offices."
+    },
+    "buypass": {
+      "title": "Buypass",
+      "period": "February 2017 - June 2018",
+      "description": "Front-end Development work on Norsk Tipping, the national lottery and betting company of Norway."
+    },
+    "solo-game-dev": {
+      "title": "Solo game developer",
+      "period": "Summer and Fall 2016",
+      "description": "While doing working holiday in Japan, I worked as a solo game developer. Using Unity3D and C#, I developed and released Super Pipe Racer for iOS and Android."
+    },
+    "master-graduation": {
+      "title": "Graduation - Master of Technology",
+      "period": "Spring 2016",
+      "description": "I graduated from the Computer Science Master of Technology program at the Norwegian University of Science and Technology."
+    },
+    "master-thesis": {
+      "title": "Master's Thesis",
+      "period": "Fall 2015",
+      "description": "I wrote my Master's Thesis about using NLP techniques to generate a Kanji name database."
+    },
+    "embassy": {
+      "title": "Royal Norwegian Embassy in Tokyo",
+      "period": "Spring 2015",
+      "description": "I worked as a trainee/intern at the Royal Norwegian Embassy in Tokyo during spring 2015."
+    },
+    "oslo-university": {
+      "title": "Oslo University",
+      "period": "Fall 2014",
+      "description": "I attended courses in economics at the University of Oslo as a guest student."
+    },
+    "kwansei-gakuin": {
+      "title": "Kwansei Gakuin University",
+      "period": "2013-2014",
+      "description": "Exchange studies at Kwansei Gakuin University in Hyogo, Japan. I attended 50% Japanese language courses and 50% East Asian studies courses."
+    }
+  },
+  "projects": {
+    "storebrand": {
+      "descriptionTexts": [
+        "I work on a pension web-application at Storebrand, one of Norway's largest and oldest private financial companies.",
+        "The web-application is customer facing and is being built using principles of lean development; prototyping features quickly for customer feedback and developing further based on responses.",
+        "The stack is an Angular 7 stack that's RxJs-heavy. Features are requested frequently and developed at lightning pace."]
+    },
+    "husbanken": {
+      "descriptionTexts": ["I worked on a loan application system for Husbanken, a state-owned welfare bank that offers loans to public employees and people with financial difficulty.",
+        "The loan application system was split in two web applications: One customer-facing application for applicants, and one for executive officers reviewing applications.",
+        "I worked both on the front-end and back-end of both parts of the application. For front-end we used Angular 5 for the internal application and AngularJS for the customer-facing application.",
+        "For both backends we used Java with Spring/Hibernate. I regularily wrote HQL queries, created new endpoints and edited previously existing ones.",
+        "One of the more complicated tasks I performed was implementing NgUpgrade for using Angular 2+ components in the AngularJS web application."]
+    },
+    "norskTipping": {
+      "descriptionTexts": [
+        "I worked as a front-end developer on Norsk Tipping, the state-owned Norwegian national lottery and sports betting monopoly.",
+        "During my time at Norsk Tipping I wrote numerous components and views, wrote custom Redux middleware and Webpack plugins, wrote unit and end-to-end tests, styling and api mocks.",
+        "Work was performed on two stacks; One in the process of deprecation that was partly implemented in React, jQuery and Knockout.js. This stack used Redux-Saga as Redux asynchronous middleware.",
+        "The new stack was a React-Redux stack using Redux-Observables (RxJs) for Redux asynchronous middleware. I wrote a substantial amount of asynchronous api integration code for this stack."]
+    },
+    "superPipeRacer": {
+      "descriptionTexts": ["During one year of working holiday in Japan after graduating, I spent roughly 4 months developing and releasing an iOS & Android game.",
+      "Super Pipe Racer was written in C# using Unity3D as game engine. In addition, I wrote the soundtrack and created the 3D models used in the game.",
+      "The game implements a recording mode, online high scores and achievements, and supports eight (!) languages."]
+    },
+    "embassy": {
+      "descriptionTexts": ["I worked as an intern/trainee at the Royal Norwegian Embassy in Tokyo, Japan.",
+        "One of my responsibilities was maintaining a website for the Japan-Norway Energy Science Week 2015 Conference.",
+        "The website was a WordPress website, and involved only slight use of HTML and CSS and for the most part using the WordPress API as well as content management."]
+    },
+    "gintel": {
+      "descriptionTexts":
+      ["I wrote backend code in Java for storing cryptographic key pairs on a secure server. The key pairs were used for encrypt sensitive user information.",
+        "The code was written in Java using Jax-RS."]
+    },
+    "holdaascom": {
+      "descriptionTexts": [
+        "The site you're looking at right now, my portfolio site, was written in Vue using Nuxt & Vuetify.",
+        "It was started in March 2019 and is currently work in progress."
+      ]
+    },
+    "tekwerk": {
+      "descriptionTexts": [
+        "Tekwerk is a job posting prototype that supports employers posting job listings and candidates looking for work.",
+        "The purpose of the prototype was to learn GraphQL, Prisma, GraphQL-yoga, and for further learning Semantic UI and RxJs/Redux-Observables."
+      ]
+    },
+    "cryptoTrader": {
+      "descriptionTexts": [
+        "CryptoTrader is a virtual crypto trading site in the sense that no trades are actually performed, but the virtual portfolio is tracked and all prices are real-time",
+        "The purpose of the prototype was to learn Semantic UI and MongoDB with Node/Express backend, and for further learning React, Redux, RxJs and Redux-Observables."
+      ]
+    },
+    "masterThesis": {
+      "descriptionTexts": [
+        "My master's thesis concerned itself with writing a program that could generate a database of Kanjis used in names and their readings.",
+        "The project was written in Java and used Kuromoji by Atillica to parse Japanese texts, which I further analyzed with NLP techniques.",
+        "The input to the project was the entire Japanese Wikipedia as of Autumn 2015."
+      ]
+    }
+  }
+}

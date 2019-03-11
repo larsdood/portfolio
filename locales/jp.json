@@ -1,0 +1,111 @@
+{
+  "images": {
+    "subtitle": "/subtitle-jp.png",
+    "subtitleClass": "subtitle-jp"
+  },
+  "herokuDisclaimer": "このプロトタイプはHerokuでホストされており、ロードに最大30秒かかることがあります。ユーザーデータを定期的に消しておりますので、ご自由でサイトをテストするためにご登録をお願いいたします。",
+  "resume": {
+    "dfind": {
+      "title": "Dfind Consulting",
+      "period": "2018年7月 - 現在",
+      "description": "ウェッブデベロッパー・コンサルタントとして働いています。 毎日クライアントの事務所で開発などする仕事です。"
+    },
+    "buypass": {
+      "title": "Buypass",
+      "period": "2017年2月 - 2018年6月",
+      "description": "Norsk Tippingという専売国立抽選会社のフロントエンドを開発していました。"
+    },
+    "solo-game-dev": {
+      "title": "Solo game developer",
+      "period": "2016年の夏、秋",
+      "description": "日本でワーホリしながら、自分でゲーム開発していました。Unity3DとC#を使い、Super Pipe Racerというスマートフォンゲームを作成して、リリースしました。"
+    },
+    "master-graduation": {
+      "title": "Master of Technology",
+      "period": "2016年の春",
+      "description": "ノルウェー科学技術大学から、コンピューターサイエンスの修士プログラムを卒業しました。"
+    },
+    "master-thesis": {
+      "title": "Master's Thesis",
+      "period": "2015年の秋",
+      "description": "I wrote my Master's Thesis about using NLP techniques to generate a Kanji name database."
+    },
+    "embassy": {
+      "title": "Royal Norwegian Embassy in Tokyo",
+      "period": "2015年の春",
+      "description": "駐日ノルウェー大使館でインターンとして働いていました。"
+    },
+    "oslo-university": {
+      "title": "Oslo University",
+      "period": "2014年の秋",
+      "description": "I attended courses in economics at the University of Oslo as a guest student."
+    },
+    "kwansei-gakuin": {
+      "title": "Kwansei Gakuin University",
+      "period": "2013年-2014年",
+      "description": "Exchange studies at Kwansei Gakuin University in Hyogo, Japan. I attended 50% Japanese language courses and 50% East Asian studies courses."
+    }
+  },
+
+  "projects": {
+    "storebrand": {
+      "descriptionTexts": [
+        "ノルウェーの年金・条件会社で年金ウェッブあっぷりケーションを開発しておる。",
+        "顧客向けのウェッブサイトで、フィーチャーを非常に速いペースでプロトタイプを開発し、顧客のフィードバック次第フィーチャーを切り取るか開発し続けるか。",
+        "スタックはAngular 7とRxJs。"]
+    },
+    "husbanken": {
+      "descriptionTexts": [
+        "国立福祉銀行でローンのウェッブあっぷりケーションを開発した。",
+        "アップ理ケーションが二つがありました：ローンを受けたい顧客向けのアップ理ケーション、また、担当者向けの見直しのアップ理ケーションだった。",
+        "フロントエンドもバックエンドもしていた。フロントエンドはAngular 5とAngularJs。バックエンドはJava, Spring, Hibernateだった。"
+      ]},
+    "norskTipping": {
+      "descriptionTexts": [
+        "I worked as a front-end developer on Norsk Tipping, the state-owned Norwegian national lottery and sports betting monopoly.",
+        "During my time at Norsk Tipping I wrote numerous components and views, wrote custom Redux middleware and Webpack plugins, wrote unit and end-to-end tests, styling and api mocks.",
+        "Work was performed on two stacks; One in the process of deprecation that was partly implemented in React, jQuery and Knockout.js. This stack used Redux-Saga as Redux asynchronous middleware.",
+        "The new stack was a React-Redux stack using Redux-Observables (RxJs) for Redux asynchronous middleware. I wrote a substantial amount of asynchronous api integration code for this stack."]
+    },
+    "superPipeRacer": {
+      "descriptionTexts": ["During one year of working holiday in Japan after graduating, I spent roughly 4 months developing and releasing an iOS & Android game.",
+      "Super Pipe Racer was written in C# using Unity3D as game engine. In addition, I wrote the soundtrack and created the 3D models used in the game.",
+      "The game implements a recording mode, online high scores and achievements, and supports eight (!) languages."]
+    },
+    "embassy": {
+      "descriptionTexts": ["I worked as an intern/trainee at the Royal Norwegian Embassy in Tokyo, Japan.",
+        "One of my responsibilities was maintaining a website for the Japan-Norway Energy Science Week 2015 Conference.",
+        "The website was a WordPress website, and involved only slight use of HTML and CSS and for the most part using the WordPress API as well as content management."]
+    },
+    "gintel": {
+      "descriptionTexts":
+      ["I wrote backend code in Java for storing cryptographic key pairs on a secure server. The key pairs were used for encrypt sensitive user information.",
+        "The code was written in Java using Jax-RS."]
+    },
+    "holdaascom": {
+      "descriptionTexts": [
+        "The site you're looking at right now, my portfolio site, was written in Vue using Nuxt & Vuetify.",
+        "It was started in March 2019 and is currently work in progress."
+      ]
+    },
+    "tekwerk": {
+      "descriptionTexts": [
+        "Tekwerk is a job posting prototype that supports employers posting job listings and candidates looking for work.",
+        "The purpose of the prototype was to learn GraphQL, Prisma, GraphQL-yoga, and for further learning Semantic UI and RxJs/Redux-Observables."
+      ]
+    },
+    "cryptoTrader": {
+      "descriptionTexts": [
+        "CryptoTrader is a virtual crypto trading site in the sense that no trades are actually performed, but the virtual portfolio is tracked and all prices are real-time",
+        "The purpose of the prototype was to learn Semantic UI and MongoDB with Node/Express backend, and for further learning React, Redux, RxJs and Redux-Observables."
+      ]
+    },
+    "masterThesis": {
+      "descriptionTexts": [
+        "My master's thesis concerned itself with writing a program that could generate a database of Kanjis used in names and their readings.",
+        "The project was written in Java and used Kuromoji by Atillica to parse Japanese texts, which I further analyzed with NLP techniques.",
+        "The input to the project was the entire Japanese Wikipedia as of Autumn 2015."
+      ]
+    }
+  }
+}
